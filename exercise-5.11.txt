@@ -1,0 +1,3 @@
+# exercise 5.11 List the bookings for which no dateTo has been specified.
+
+SELECT * FROM Booking WHERE dateTo = NULL;
